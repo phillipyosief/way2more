@@ -31,7 +31,7 @@ _Themecreator coming soon_
 
 * 0.0.1 beta
     * _Work in progress_
-    * ✔ Languages (English, German, Türkiye, Tigrinya, Amharic) help us to translate languages view more [here](https://github.com/philliphqs/way2more/tree/main/languages/README.md)
+    * ❌ Languages (English, German, Türkiye, Tigrinya, Amharic) help us to translate languages view more [here](https://github.com/philliphqs/way2more/tree/main/languages/README.md)
     * ✔ Themes
     * ❌ Custom background for Telegram, WhatsApp and more
     * ❌ More than 2 accounts
