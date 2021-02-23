@@ -7,7 +7,7 @@
 
 Instead of using over 5 messaging apps use just 1 or use it for your second accounts!
 
-![](assets/screenshots/screenshot.png)
+![](github/screenshots/present.gif)
 
 ## Installation
 
