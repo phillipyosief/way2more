@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html style="height: 148px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>way2more</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body id="page-top" style="margin: 0;
+padding: 0; height: 547px;  margin: 0;padding: 0;overflow-x: hidden;overflow-y: hidden;">
+
+<div id="wrapper" style="height: 800px;">
+    <div class="d-flex flex-column" id="content-wrapper" style="background: rgb(255,255,255);">
+        <div id="content">
+            <nav class="navbar navbar-light navbar-expand bg-white shadow d-xl-flex justify-content-xl-center align-items-xl-center mb-4 topbar static-top" style="/*width: auto;*//*margin-top: none;*//*margin-right: none;*//*margin-left: none;*/">
+                <div class="container-fluid">
+                    <div style="width: 79px;margin: -34px;padding-right: -126px;height: 79px;margin-top: -43px;min-width: 4px;"></div>
+                    <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" data-toggle="tooltip" data-bss-tooltip="" data-placement="left" title="" style="padding-right: -36px;padding-left: 22px;" data-original-title="Type a website link in (e.g. https://hqsartworks.me) and it will open in this application">
+                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..." style="border-color: rgb(185,161,255);" autofocus="">
+                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button" style="background: rgb(180,181,190);border-color: rgb(209,211,231);"><i class="fas fa-search"></i></button></div>
+                        </div>
+                    </form>
+                    <div style="-webkit-app-region: drag; width: 291px;margin: -34px;padding-right: 15px;height: 79px;margin-top: -43px;margin-left: 26px;"></div>
+                    <div style="-webkit-app-region: drag; width: 291px;margin: -34px;padding-right: 15px;height: 79px;margin-top: -43px;margin-left: 26px;"></div>
+                    <ul class="navbar-nav flex-nowrap ml-auto">
+                        <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" id="searchinput"><i class="fas fa-search"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto navbar-search w-100">
+                                    <div class="input-group"><input class="bg-light form-control border-0 small" type="text"  placeholder="Search for ...">
+                                        <div class="input-group-append">
+                                            <button onclick="console.log('hi')" class="btn btn-primary py-0" type="button">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown" onclick="open_link('https://github.com')"><i class="fab fa-github fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown" onclick="open_link('https://reddit.com/login')"><i class="fab fa-reddit fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown" onclick="open_instagram()"><i class="fab fa-instagram fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown" onclick="open_twitter()"><i class="fab fa-twitter fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown" onclick="open_link('https://web.telegram.org')"><i class="fab fa-telegram fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown" onclick="open_link('https://discord.com/login')"><i class="fab fa-discord fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown" onclick="open_whatsapp()"><i class="fab fa-whatsapp fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <div class="d-none d-sm-block topbar-divider"></div>
+                        <li class="nav-item dropdown no-arrow">
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="https://github.com/philliphqs/way2more"><span class="d-none d-lg-inline mr-2 text-gray-600 small">way2more</span></a>
+                                <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"><a class="dropdown-item" href="https://github.com/philliphqs/way2more"><i class="fab fa-github fa-sm fa-fw mr-2 text-gray-400" style="font-size: 14.9px;"></i>&nbsp;GitHub</a><a class="dropdown-item" onclick="open_link('https://hqsartworks.me')"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400" style="font-size: 14.9;"></i>&nbsp;Website</a><a class="dropdown-item" href="https://twitter.com/phillip_hqs"><i class="fab fa-twitter fa-sm fa-fw mr-2 text-gray-400" style="font-size: 14.9px;"></i>&nbsp;Twitter</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="https://github.com/philliphqs/way2more/issues/new/?title=Title"><i class="fas fa-exclamation-circle fa-sm fa-fw mr-2 text-gray-400" style="font-size: 14.9px;"></i>&nbsp;Report an issue</a><a class="dropdown-item" href="#"><i class="fas fa-comment fa-sm fa-fw mr-2 text-gray-400" style="font-size: 14.9px;"></i>&nbsp;Feedback</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-comment fa-sm fa-fw mr-2 text-gray-400" style="font-size: 14.9px;"></i>&nbsp;Exit</a>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="d-none d-sm-block topbar-divider"></div>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown"><i onclick="BrowserWindow.getFocusedWindow().minimize()" id="minimize" class="far fa-window-minimize fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-toggle="dropdown"><i id="close" class="far fa-window-close fa-fw" style="font-size: 24px;"></i></a>
+                                <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="webapp-container" class="container-fluid">
+                <webview useragent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.131 Safari/537.36"
+                         id="tutorial" src="tutorial/index.html"
+                         style="/* border-style: none; */
+                                margin-top: -25px;
+                                width: 1500px;
+                                height: 681px;
+                                /* border: none;
+                                *//* margin: 0; */
+                                /* padding: 0; */
+                                margin-left: -24px;">
+                </webview>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/bs-init.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="js/window.js"></script>
+<script src="index.js"></script>
+<script src="js/links.js"></script>
+
+</body>
+
+</html>
