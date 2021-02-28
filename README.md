@@ -44,9 +44,12 @@ _Themecreator coming soon_
 * 0.0.1 beta
     * ❌ Darkmode
     * ❌ Fix Twitter and Instagram
-    * ❌ Fix minimize button
+    * ✔ Fix minimize button
     * ❌ Fix searchbar
-    * ❌ Fix menu
+    * ✔ Fix menu
+    * ❌ AdBlocker
+    * ❌ Installer for Windows, MacOS, Linux
+    * ❌ Portable version for Windows 
         
 ## Meta
 
