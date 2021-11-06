@@ -11,14 +11,7 @@ Instead of using over 5 messaging apps use just 1 or use it for your second acco
 
 ## Installation
 
-OS X & Linux & Windows:
-
-```sh
-coming soon 
-```
-```sh
-coming soon
-```
+[Download for Windows]()
 
 ## Themes
 
@@ -41,12 +34,13 @@ _Themecreator coming soon_
 * 0.0.1 beta
     * ❌ Darkmode
     * ❌ Fix Twitter and Instagram
-    * ✔ Fix minimize button
+    * ✔️ Fix minimize button
     * ❌ Fix searchbar
-    * ✔ Fix menu
+    * ✔️ Fix menu
     * ❌ AdBlocker
-    * ❌ Installer for Windows, MacOS, Linux
-    * ❌ Portable version for Windows 
+    * ❌ Installer for MacOS, Linux
+    * ✔️ Installer for Windows
+    * ✔️ Portable version for Windows 
         
 ## Meta
 
